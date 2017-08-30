@@ -1,4 +1,4 @@
-PYTHON_VERSION = 2.7
+PYTHON_VERSION = 3.5
 TARGET = hello_ext
 
 PYTHON_INCLUDE = /usr/include/python$(PYTHON_VERSION)
