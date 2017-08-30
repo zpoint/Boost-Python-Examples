@@ -10,7 +10,7 @@ struct Var
 #include <boost/python.hpp>
 using namespace boost::python;
 
-BOOST_PYTHON_MODULE(hello)
+BOOST_PYTHON_MODULE(class_member)
 {
 		class_<Var>("Var", init<std::string>())
 			.def_readonly("name", &Var::name)

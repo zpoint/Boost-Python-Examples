@@ -25,7 +25,7 @@ endif
 
  
 $(TARGET).so: $(TARGET).o
-	g++ -shared -Wl,--export-dynamic $(TARGET).o -L$(BOOST_LIB) -$(BOOST) -L/usr/lib/python$(PYTHON_VERSION)/config -lpython$(PYTHON_VERSION_FINAL) -o $(TARGET).so
+	g++ -std=c++11 -shared -Wl,--export-dynamic $(TARGET).o -L$(BOOST_LIB) -$(BOOST) -L/usr/lib/python$(PYTHON_VERSION)/config -lpython$(PYTHON_VERSION_FINAL) -o $(TARGET).so
  
 $(TARGET).o: $(TARGET).cpp
-	g++ -I$(PYTHON_INCLUDE) -I$(BOOST_INC) -fPIC -c $(TARGET).cpp
+	g++ -std=c++11 -I$(PYTHON_INCLUDE) -I$(BOOST_INC) -fPIC -c $(TARGET).cpp
