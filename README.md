@@ -2,7 +2,7 @@
 
 - - -
 
-* [C++ Boost](#C++ Boost)
+* [C++ Boost](#C++-Boost)
 
 - - -
 
@@ -10,9 +10,9 @@
 
 * [Installation](#Boost-Installation)
 * [Tutorial](#Tutorial)
-	* [python3 hello_ext example](python3-hello_ext)
-	* [python2 hello_ext example](python2-hello_ext)
-	* [other cpp example]()
+	* [python3 hello_ext example](#python3-hello_ext)
+	* [python2 hello_ext example](#python2-hello_ext)
+	* [other cpp example](https://github.com/zpoint/Python-Cpp/tree/master/boost_python)
 
 ##### Boost Installation
 
