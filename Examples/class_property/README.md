@@ -2,7 +2,8 @@
 
 ###### python3 class_property
 
-	make
+	cd Boost-Python-Examples/Examples/class_property
+    make
     python3
 
     Python 3.5.2 (default, Nov 17 2016, 17:05:23)

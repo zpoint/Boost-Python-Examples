@@ -13,7 +13,8 @@
 	* [python3 hello_ext example](#python3-hello_ext)
 	* [python2 hello_ext example](#python2-hello_ext)
 * Examples
-	* [class_hello](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/hello_ext)
+	* [hello_ext](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/hello_ext)
+	* [class_hello](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/class_hello)
 	* [class_member](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/class_member)
 	* [class_property](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/class_property)
 	* [inheritance](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/inheritance)

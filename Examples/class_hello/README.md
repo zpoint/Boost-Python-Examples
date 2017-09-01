@@ -2,6 +2,7 @@
 
 ###### python3 class_hello
 
+	cd Boost-Python-Examples/Examples/class_hello
 	make
     python3
 

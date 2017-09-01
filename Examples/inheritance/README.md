@@ -2,6 +2,7 @@
 
 ###### python3 inheritance
 
+	cd Boost-Python-Examples/Examples/inheritance
 	make
     python3
 

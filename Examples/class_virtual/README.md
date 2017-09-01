@@ -2,6 +2,7 @@
 
 ###### python3 class_virtual
 
+	cd Boost-Python-Examples/Examples/class_virtual
 	make
     python3 example.py
 
