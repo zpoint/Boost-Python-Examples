@@ -37,4 +37,7 @@ BOOST_PYTHON_MODULE(inheritance)
 				.def("get_val", &Base::get_val);
 
 		class_<Derived, bases<Base> >("Derived");
+		def("b", b);
+		def("d", d);
+		def("factory", factory, return_value_policy<manage_new_object>());
 }

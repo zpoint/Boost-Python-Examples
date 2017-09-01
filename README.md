@@ -1,4 +1,4 @@
-# Python-Cpp
+# Boost Python Examples
 
 - - -
 
@@ -9,10 +9,18 @@
 ### C++ Boost Python
 
 * [Installation](#Boost-Installation)
-* [Tutorial](#Tutorial)
+* [Demo](#Demo)
 	* [python3 hello_ext example](#python3-hello_ext)
 	* [python2 hello_ext example](#python2-hello_ext)
-	* [other cpp example](https://github.com/zpoint/Python-Cpp/tree/master/boost_python)
+* Examples
+	* [class_hello](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/hello_ext)
+	* [class_member](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/class_member)
+	* [class_property](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/class_property)
+	* [inheritance](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/inheritance)
+	* [class_virtual](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/class_virtual)
+	* [class_virtual_nopure](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/class_virtual_nopure)
+	* [operators](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/operators)
+	* [special_operators](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/special_operators)
 
 ##### Boost Installation
 
@@ -26,15 +34,15 @@
         sudo ./b2 install -a --with=all
         sudo ldconfig
 
-##### Tutorial
+##### Demo
 
-* If you change the prefix path when install, you need also change the **BOOST_INC** and **BOOST_LIB** in **./boost_python/makefile**
-
+* If you change the prefix path when install, you need also change the **BOOST_INC** and **BOOST_LIB** in **makefile**
+* My default python version is python3.5, if you want to use with python 2.7, change **"PYTHON_VERSION"** in makefile
 
 ###### python3 hello_ext
 
-	git clone https://github.com/zpoint/Python-Cpp.git
-	cd boost_python
+	git clone https://github.com/zpoint/Boost-Python-Examples.git
+	cd Boost-Python-Examples/Examples/hello_ext
     make
 
 	python3
@@ -49,8 +57,8 @@
 
 ###### python2 hello_ext
 
-	git clone https://github.com/zpoint/Python-Cpp.git
-	cd boost_python
+	git clone https://github.com/zpoint/Boost-Python-Examples.git
+	cd Boost-Python-Examples/Examples/hello_ext
     vim makefile # change the first line "PYTHON_VERSION = 3.5" to "PYTHON_VERSION = 2.7"
     make
 
