@@ -41,6 +41,6 @@ BOOST_PYTHON_MODULE(call_policies)
 				.def("get", &Z::get)
 				.def("set", &Z::set);
 		def("f", f, return_value_policy<reference_existing_object>());
-		def("ff", f, return_internal_reference<1
+		def("ff", f, return_internal_reference<1,
 						with_custodian_and_ward<1, 2> >());
 }

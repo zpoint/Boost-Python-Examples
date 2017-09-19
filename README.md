@@ -22,6 +22,8 @@
 	* [class_virtual_nopure](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/class_virtual_nopure)
 	* [operators](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/operators)
 	* [special_operators](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/special_operators)
+	* [call_policies](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/call_policies)
+	* [overloading](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/overloading)
 
 ##### Boost Installation with python3 support
 
