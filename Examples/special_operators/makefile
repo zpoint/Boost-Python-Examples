@@ -7,12 +7,7 @@ PYTHON_INCLUDE = /usr/include/python$(PYTHON_VERSION)
  
 # location of the Boost Python include files and library
 
-# install step
-# tar -xzvf boost_1_65_0.tar.gz
-# ./bootstrap.sh --with-python=/usr/bin/python3 --with-python-version=3.5 --with-python-root=/usr/local/lib/python3.5 --prefix=/usr/local
-# sudo ./b2 install -a --with=all
-# sudo ldconfig
-
+# Only need if install from source
 BOOST_INC = /usr/local/include/boost
 BOOST_LIB = /usr/local/lib
 
