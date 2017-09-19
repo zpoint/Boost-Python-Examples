@@ -28,9 +28,11 @@
 * OS Ubuntu 16.10
 
 * Download the latest version [here](http://www.boost.org/)
+* Description of **user-config.jam** please refer to [here]((http://www.boost.org/build/doc/html/bbv2/overview/configuration.html)
 
-    	tar -xzvf boost_1_65_0.tar.gz
-        cd boost_1_65_0
+    	tar -xzvf boost_1_65_1.tar.gz
+        cd boost_1_65_1
+        echo "using gcc :  : g++ ;" > ~/user-config.jam
         ./bootstrap.sh --with-python=/usr/bin/python3 --with-python-version=3.5 --with-python-root=/usr/local/lib/python3.5 --prefix=/usr/local
         sudo ./b2 install -a --with=all
         sudo ldconfig
