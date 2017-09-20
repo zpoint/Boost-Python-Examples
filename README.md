@@ -8,7 +8,7 @@
 
 ### C++ Boost Python
 
-* [Installation](#Boost-Installation)
+* [Installation](#Boost-Installation-with-python3-support)
 * [Demo](#Demo)
 	* [python3 hello_ext example](#python3-hello_ext)
 	* [python2 hello_ext example](#python2-hello_ext)
@@ -24,6 +24,9 @@
 	* [special_operators](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/special_operators)
 	* [call_policies](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/call_policies)
 	* [overloading](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/overloading)
+	* Object Interface
+		* [basic_interface](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/basic_interface)
+		* [derived_object_types](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/derived_object_types)
 
 ##### Boost Installation with python3 support
 
