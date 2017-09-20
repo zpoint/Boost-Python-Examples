@@ -59,6 +59,15 @@
     other constructor
     >>>
 
+    >>> xxx = X(1)
+    other constructor
+    >>> xxx.mem_func(4)
+    variable argument: a: 4 b:  c: 2 d: 3
+    True
+    >>> xxx.mem_func(4, "z")
+    variable argument: a: 4 b: z c: 2 d: 3
+    True
+    >>> 
 
 
 

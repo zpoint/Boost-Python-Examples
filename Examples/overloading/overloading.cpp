@@ -71,6 +71,7 @@ BOOST_PYTHON_MODULE(overloading)
 				.def(init<>())
 				.def(init<int, optional<char, std::string, double>>())
 				.def("mem_func", &X::mem_func, mem_func_overloads())
-				.def("f_mem_func", fx1);
+				// the overloaded functions must have a common sequence of initial arguments
+				.def("f_mem_func", fx3, f_mem_overloads());
 		def("not_member_func", not_mem_func, not_member_func_overloads());
 }
