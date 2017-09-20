@@ -14,4 +14,3 @@
         da.f()
     RuntimeError: Pure virtual function called
 
-
