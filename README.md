@@ -27,6 +27,8 @@
 	* Object Interface
 		* [basic_interface](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/basic_interface)
 		* [derived_object_types](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/derived_object_types)
+		* [extracting_c++_objects](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/extracting_c++_objects)
+		* [enums](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/enums)
 
 ##### Boost Installation with python3 support
 
