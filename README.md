@@ -31,6 +31,8 @@
 		* [enums](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/enums)
 		* [reference_count](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/reference_count)
 
+	* [embedding](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/embedding)
+
 ##### Boost Installation with python3 support
 
 * OS Ubuntu 16.10
