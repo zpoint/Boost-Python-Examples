@@ -29,6 +29,7 @@
 		* [derived_object_types](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/derived_object_types)
 		* [extracting_c++_objects](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/extracting_c++_objects)
 		* [enums](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/enums)
+		* [reference_count](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/reference_count)
 
 ##### Boost Installation with python3 support
 
