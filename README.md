@@ -33,6 +33,7 @@
 
 	* [embedding](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/embedding)
 	* [iterators](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/iterators)
+	* [exception_translation](https://github.com/zpoint/Boost-Python-Examples/tree/master/Examples/exception_translation)
 
 ##### Boost Installation with python3 support
 
