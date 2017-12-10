@@ -2,7 +2,7 @@ import basic_interface
 
 class X(list):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        super(X, self).__init__(*args, **kwargs)
     
     def __setattr__(self, name, value):
         self.__dict__[name] = value

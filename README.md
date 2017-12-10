@@ -9,6 +9,8 @@
 ### C++ Boost Python
 
 * [Installation](#Boost-Installation-with-python3-support)
+	* [Ubuntu](#OS-Ubuntu-16.10)
+	* [Mac](#OS-Mac)
 * [Demo](#Demo)
 	* [python3 hello_ext example](#python3-hello_ext)
 	* [python2 hello_ext example](#python2-hello_ext)
@@ -65,6 +67,22 @@
       cd /usr/lib/x86_64-linux-gnu/
 	  sudo ln -s libboost_python-py35.so libboost_python3.so
 
+
+* OS Mac
+
+		brew install boost-python --with-python3
+        # if your python version or lib path is different from mine, please change
+        # INCLUDE_PATH and LIBPYTHON_PATH in makefile
+
+        # INCLUDE_PATH:
+        # shold be the path contains "pyconfig.h", below two command can help you find the path
+        # sudo find / -name "pyconfig.h"
+        # python3 -c "import sys; print('\n'.join(sys.path))"
+
+        # LIBPYTHON_PATH:
+        # on mac, with version python3.6, lib name is: libpython3.6.dylib
+        # sudo find / -name "libpython3.6"
+
 ##### Demo
 
 * If you install from source, and you change the prefix path when install, you need also change the **BOOST_INC** and **BOOST_LIB** in **makefile**
@@ -90,7 +108,7 @@
 
 	git clone https://github.com/zpoint/Boost-Python-Examples.git
 	cd Boost-Python-Examples/Examples/hello_ext
-    vim makefile # change the first line "PYTHON_VERSION = 3.5" to "PYTHON_VERSION = 2.7"
+    vim makefile # change the first line "PYTHON_VERSION = None" to "PYTHON_VERSION = 2.7"
     make
 
 	python
