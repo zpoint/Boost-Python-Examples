@@ -86,7 +86,7 @@
 ##### Demo
 
 * If you install from source, and you change the prefix path when install, you need also change the **BOOST_INC** and **BOOST_LIB** in **makefile**
-* My default python version is python3.5, if you want to use with python 2.7, change **"PYTHON_VERSION"** in makefile
+* My default python version is python3.5 on Ubuntu, python3.6 on Mac, if you want to use with python 2.7, change **"PYTHON_VERSION"** in makefile
 
 ###### python3 hello_ext
 
