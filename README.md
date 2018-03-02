@@ -61,8 +61,8 @@
 * From apt
 
 	  sudo apt-get install libboost-all-dev
-      # link python3.so
-	  sudo find / -name "libpython3.5m.so"
+      # link libboost_python3.so
+	  sudo find / -name "libboost_python-py35.so"
       # cd to where you find it
       cd /usr/lib/x86_64-linux-gnu/
 	  sudo ln -s libboost_python-py35.so libboost_python3.so
